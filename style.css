@@ -6,11 +6,11 @@
 body {
     margin: 0;
     font: 14pt Cozette, Mono;
-    color: darkslategray;
     line-height: 3em;
     background-image: url('./res/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-size: 100vw;
     background-color: skyblue;
     width: 100vw;
@@ -62,6 +62,12 @@ div.red {
 div.text-container {
     margin-top: 50vh;
     transform: translateY(-50%);
+}
+
+h1, h2, h3 {
+    color: seashell;
+    text-decoration: underline;
+    padding-left: 1em;
 }
 
 p {
